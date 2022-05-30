@@ -1,0 +1,27 @@
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\appsettings.Development.json
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\appsettings.json
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\ASP net.exe
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\ASP net.deps.json
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\ASP net.runtimeconfig.json
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\ASP net.dll
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\ASP net.pdb
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Aplikace\CODE\GitHub\ASP net\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.csproj.AssemblyReference.cache
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.AssemblyInfoInputs.cache
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.AssemblyInfo.cs
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.csproj.CoreCompileInputs.cache
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.MvcApplicationPartsAssemblyInfo.cs
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.MvcApplicationPartsAssemblyInfo.cache
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\staticwebassets.build.json
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\staticwebassets.development.json
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\scopedcss\bundle\ASP net.styles.css
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.csproj.CopyComplete
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.dll
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\refint\ASP net.dll
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.pdb
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ASP net.genruntimeconfig.cache
+D:\Aplikace\CODE\GitHub\ASP net\obj\Debug\net6.0\ref\ASP net.dll

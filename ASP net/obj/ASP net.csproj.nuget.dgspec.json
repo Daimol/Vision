@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP net\\ASP net.csproj": {}
+    "D:\\Aplikace\\CODE\\GitHub\\ASP net\\ASP net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP net\\ASP net.csproj": {
+    "D:\\Aplikace\\CODE\\GitHub\\ASP net\\ASP net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP net\\ASP net.csproj",
+        "projectUniqueName": "D:\\Aplikace\\CODE\\GitHub\\ASP net\\ASP net.csproj",
         "projectName": "ASP net",
-        "projectPath": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP net\\ASP net.csproj",
-        "packagesPath": "C:\\Users\\TSTL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP net\\obj\\",
+        "projectPath": "D:\\Aplikace\\CODE\\GitHub\\ASP net\\ASP net.csproj",
+        "packagesPath": "C:\\Users\\Terminator3001\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplikace\\CODE\\GitHub\\ASP net\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Aplikace\\Knihovna SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TSTL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Terminator3001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
