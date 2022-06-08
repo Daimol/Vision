@@ -16298,6 +16298,11 @@
   "RootNamespace": "ASP_AlpineSkiHouse",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Zakazky.cshtml",
+      "TargetPath": "Pages\\Zakazky.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16310,16 @@
     {
       "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Sklad.cshtml",
+      "TargetPath": "Pages\\Sklad.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Pizza.cshtml",
+      "TargetPath": "Pages\\Pizza.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16320,6 +16335,11 @@
     {
       "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\Pages\\Doprava.cshtml",
+      "TargetPath": "Pages\\Doprava.cshtml",
       "FileKind": "mvc"
     },
     {
