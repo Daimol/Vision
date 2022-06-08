@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Terminator3001\\.nuget\\packages\\": {},
-    "D:\\Aplikace\\Knihovna SDK\\NuGetPackages": {}
+    "C:\\Users\\TSTL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aplikace\\CODE\\GitHub\\ASP_AlpineSkiHouse\\ASP_AlpineSkiHouse.csproj",
+      "projectUniqueName": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\ASP_AlpineSkiHouse.csproj",
       "projectName": "ASP_AlpineSkiHouse",
-      "projectPath": "D:\\Aplikace\\CODE\\GitHub\\ASP_AlpineSkiHouse\\ASP_AlpineSkiHouse.csproj",
-      "packagesPath": "C:\\Users\\Terminator3001\\.nuget\\packages\\",
-      "outputPath": "D:\\Aplikace\\CODE\\GitHub\\ASP_AlpineSkiHouse\\obj\\",
+      "projectPath": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\ASP_AlpineSkiHouse.csproj",
+      "packagesPath": "C:\\Users\\TSTL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TSTL\\Desktop\\Zálohy\\Programming\\GitHub\\ASP_AlpineSkiHouse\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Aplikace\\Knihovna SDK\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Terminator3001\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\TSTL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
