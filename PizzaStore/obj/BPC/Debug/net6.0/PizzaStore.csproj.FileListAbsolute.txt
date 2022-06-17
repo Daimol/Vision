@@ -17,3 +17,9 @@ C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0
 C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0\PizzaStore.pdb
 C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0\PizzaStore.genruntimeconfig.cache
 C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0\ref\PizzaStore.dll
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\bin\BPC\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\bin\BPC\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\bin\BPC\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\bin\BPC\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0\PizzaStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TSTL\Desktop\Zálohy\Programming\GitHub\PizzaStore\obj\BPC\Debug\net6.0\PizzaStore.csproj.CopyComplete
