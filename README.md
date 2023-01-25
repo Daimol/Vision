@@ -1,6 +1,6 @@
 # GitHub co dodat
 
-Můj vlastní progress v učení.</br>
+Můj vlastní progress v učení s Visual Studio a https://learn.microsoft.com/cs-cz/ </br>
 HTML = 100% </br>
 CSS = 75% </br>
 PHP = 20% </br>
