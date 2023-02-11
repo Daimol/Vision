@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Terminator3001\Desktop\GIT\GitHub\VisualStudio\Python\env"
+VIRTUAL_ENV="C:\Users\Terminator3001\Desktop\GIT\GitHub\VisualStudio\PYthon\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
