@@ -1,46 +1,83 @@
-import math
+import pygame
 
-import pyglet
+# Inicializace knihovny Pygame
+pygame.init()
 
-window = pyglet.window.Window()
+# Nastavení velikosti okna
+screen_width = 640
+screen_height = 480
+screen = pygame.display.set_mode((screen_width, screen_height))
 
-def tik(t):
-    had.x = had.x + t * 20
+# Nastavení názvu okna
+pygame.display.set_caption("Ovládání pomocí kláves")
 
-pyglet.clock.schedule_interval(tik, 1/30)
+# Počáteční pozice hráče
+player_x = screen_width // 2
+player_y = screen_height // 2
 
-def zpracuj_text(text):
-    had.x = 150
-    had.rotation = had.rotation + 10
+# Pomocné proměnné pro uchování stavu kláves
+key_up_pressed = False
+key_down_pressed = False
+key_left_pressed = False
+key_right_pressed = False
 
-obrazek = pyglet.resource.animation('snake.gif')
-had = pyglet.sprite.Sprite(obrazek, x=10, y=10)
+# Čas poslední iterace smyčky
+last_tick = pygame.time.get_ticks()
 
-def vykresli():
-    window.clear()
-    had.draw()
+# Hlavní smyčka programu
+running = True
+while running:
+    # Procházení událostí (klávesnice, myš)
+    for event in pygame.event.get():
+        # Pokud byla stisknuta klávesa Escape, ukončit program
+        if event.type == pygame.QUIT:
+            running = False
 
-def klik(x, y, tlacitko, mod):
-    print(tlacitko, mod)
-    had.x = x
-    had.y = y
+        # Pohyb hráče pomocí kláves W, A, S a D
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_w:
+                key_up_pressed = True
+            elif event.key == pygame.K_s:
+                key_down_pressed = True
+            elif event.key == pygame.K_a:
+                key_left_pressed = True
+            elif event.key == pygame.K_d:
+                key_right_pressed = True
 
-window.push_handlers(
-    on_text=zpracuj_text,
-    on_draw=vykresli,
-    on_mouse_press=klik,
-)
+        # Zastavení pohybu hráče po uvolnění klávesy
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_w:
+                key_up_pressed = False
+            elif event.key == pygame.K_s:
+                key_down_pressed = False
+            elif event.key == pygame.K_a:
+                key_left_pressed = False
+            elif event.key == pygame.K_d:
+                key_right_pressed = False
 
-"""obrazek2 = pyglet.image.load('snake2.png')
+    # Výpočet časového rozdílu od poslední iterace smyčky
+    current_tick = pygame.time.get_ticks()
+    time_diff = current_tick - last_tick
+    last_tick = current_tick
 
-def zmen(t):
-    had.image = obrazek2
-    pyglet.clock.schedule_once(zmen_zpatky, 0.2)
+    # Pohyb hráče podle stisknutých kláves s rychlostí 50 pixelů za sekundu
+    if key_up_pressed:
+        player_y -= 50 * (time_diff / 1000)
+    if key_down_pressed:
+        player_y += 50 * (time_diff / 1000)
+    if key_left_pressed:
+        player_x -= 50 * (time_diff / 1000)
+    if key_right_pressed:
+        player_x += 50 * (time_diff / 1000)
 
-def zmen_zpatky(t):
-    had.image = obrazek
-    pyglet.clock.schedule_once(zmen, 0.2)
+    # Vyplnění pozadí bílou barvou
+    screen.fill((255, 255, 255))
 
-pyglet.clock.schedule_once(zmen, 0.2) """
+    # Vykreslení hráče na obrazovku
+    pygame.draw.circle(screen, (255, 0, 0), (player_x, player_y), 20)
 
-pyglet.app.run()
+    # Obnovení obsahu obrazovky
+    pygame.display.flip()
+
+# Ukončení programu a Pygame
+pygame.quit()
