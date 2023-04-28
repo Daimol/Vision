@@ -5,4 +5,5 @@ HTML = 100% </br>
 CSS = 75% </br>
 PHP = 20% </br>
 C# = 20% </br>
-Python + Jupyter = začínám :)</br>
+Python + Jupyter = 10%</br>
+NET. = 20% </br>
